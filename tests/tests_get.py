@@ -1,4 +1,4 @@
-from api_reqiests import *
+from api_reqiests_examples import *
 
 def test_get_returns_200():
     result = get_request()
