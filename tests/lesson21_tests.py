@@ -1,5 +1,5 @@
 import pytest
-from selenium_all import MySelenium
+from classes.lesson21_class import MySelenium
 
 
 @pytest.mark.parametrize('base_url', [('https://www.google.com.ua/')])
