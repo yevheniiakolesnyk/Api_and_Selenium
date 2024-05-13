@@ -23,15 +23,12 @@ except:
 
 # Click the button to accept cookies
 accept_cookie_button.click()
-time.sleep(3)
 
 # Scroll down and up
 Y_1 = 2000
 driver.execute_script(f'window,scrollTo(0, {Y_1})')
-time.sleep(3)
 Y_2 = 0
 driver.execute_script(f'window,scrollTo(0, {Y_2})')
-time.sleep(3)
 
 # Close the driver
 driver.quit()
