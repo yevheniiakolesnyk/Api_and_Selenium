@@ -17,5 +17,4 @@ driver.execute_script(script)
 
 # switch to alert and accept it
 alert = driver.switch_to.alert
-time.sleep(3)
 alert.accept()
