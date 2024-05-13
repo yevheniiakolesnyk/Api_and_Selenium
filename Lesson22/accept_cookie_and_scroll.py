@@ -24,11 +24,9 @@ except:
 
 # Click the button to accept cookies
 accept_cookie_button.click()
-time.sleep(3)
 
 # Scroll
 driver.execute_script('window.scrollTo(0, document.body.scrollHeight);')
-time.sleep(3)
 
 # Close the driver
 driver.quit()
